@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* HTML and Body Styles */
+html {
+   background-color: rgb(0, 0, 0);
+}
+
+hr{
+   border-color:#D4AF37;
+}
+
+body{
+   color: #D4AF37;
+   font-family: 'Bookman';
+}
+
+body > header {
+ border-color: #D4AF37;
+ border-radius: 100%;
+ border-style: double;
+} 
+
+/* Heading Styles */
+
+h1{
+   font-size: 2.2em; /* (2.2)em times the surrounding content */
+}
+
+h2{
+   font-size: 1.5em;
+}
+
+h1,h2{
+   font-family: 'Bookman';
+   letter-spacing: 0.1em;
+   
+}
+
+
+
+
+
+/* Aside and Blockquote Styles */
+
+blockquote{
+   color: #000000;
+   margin: 20px 5px;
+   background-color: #D4AF37;
+   quotes: "\201C" "\201D";
+   font-size: 1.9em;
+   padding: 0.5em 10px;
+   border-radius: 20px;
+   text-align: center;
+   font-family: 'Bookman';
+}
+
+blockquote::before{
+  content: open-quote;
+  font-family: 'Bookman';
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+blockquote::after{
+   content: close-quote;
+   font-family: 'Bookman';
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
+aside{
+   font-size: 0.8em; /* 0.8 times the size of the body text */
+}
+
+/* Navigation Styles */	
+
+nav{
+   font-size: 0.8em;
+}
+
+nav > ul{ /* style rule for the ul elements nested within the nav element */
+   line-height: 2em;
+   list-style-type: none ;
+   padding-left: 5px;
+}
+
+/* List Styles */
+ul{
+   list-style-type: circle;
+}
+/* Footer Styles */
+
+footer{
+   color:#D4AF37;
+   font: normal small-caps bold 0.5em
+      'bookman';
+   text-align: center;
+}
